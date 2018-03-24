@@ -39,3 +39,5 @@ def add_s(array)
   for i in 0...array.length
     if i != 1
       array[i] += "s"
+    end
+  end
