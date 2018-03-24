@@ -20,8 +20,9 @@ end
 
 def kesha_maker(array)
   for i in 0...array.length
-  arr[i][2] = "$"
+  array[i][2] = "$"
 end
+array
 end
 
 def find_a(array)
