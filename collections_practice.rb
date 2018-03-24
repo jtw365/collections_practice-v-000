@@ -26,7 +26,7 @@ array
 end
 
 def find_a(array)
-  array.detect do
+  array.detect do |x|
 
   end
 end
