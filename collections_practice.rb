@@ -38,3 +38,4 @@ end
 def add_s(array)
   for i in 0...arr.length
     if i != 1
+      array[i]
