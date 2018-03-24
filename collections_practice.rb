@@ -28,10 +28,11 @@ end
 def find_a(array)
   array.detect do |x|
     x[0] == "a"
-
   end
 end
 
 def sum_array(array)
   array.inject(0) {|sum, x| sum += x}
 end
+
+def add_s(array)
