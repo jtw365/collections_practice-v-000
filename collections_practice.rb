@@ -27,7 +27,7 @@ end
 
 def find_a(array)
   array.detect do |x|
-    x[0]
+    x[0] == "a"
 
   end
 end
