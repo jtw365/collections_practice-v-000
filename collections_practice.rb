@@ -36,6 +36,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  for i in 0...arr.length
+  for i in 0...array.length
     if i != 1
-      array[i]
+      array[i] += "s"
